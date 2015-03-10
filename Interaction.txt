@@ -1,0 +1,4 @@
+#Test fork interaction
+in C#
+IUndesirable variable = case.GetUndesirable();
+variable?.DoUndesirableThings();
