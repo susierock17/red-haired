@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Client  {
     public Client(){}
     public static void main(String[] args) {
-        String host = (args.length < 1) ? null : args[0];
+        String host = (args.length <= 1) ? null : args[0];
         try {
             Registry registry = LocateRegistry.getRegistry(host);
             Cipher stub = (Cipher) registry.lookup("Crypt");
