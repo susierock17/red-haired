@@ -1,0 +1,84 @@
+.gradient-pattern-lines {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: border-box;
+  //width: 320px;
+  //height: 320px;
+  border: none;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: rgba(255,255,255,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: -webkit-linear-gradient(90deg, rgba(0,0,0,0) 50%, rgba(200,0,0,0.498039) 50%, rgba(200,0,0,0.498039) 0), -webkit-linear-gradient(0deg, rgba(0,0,0,0) 50%, rgba(200,0,0,0.498039) 50%, rgba(200,0,0,0.498039) 0), #FFFFFF;
+  background: -moz-linear-gradient(0deg, rgba(0,0,0,0) 50%, rgba(200,0,0,0.498039) 50%, rgba(200,0,0,0.498039) 0), -moz-linear-gradient(90deg, rgba(0,0,0,0) 50%, rgba(200,0,0,0.498039) 50%, rgba(200,0,0,0.498039) 0), #FFFFFF;
+  background: linear-gradient(0deg, rgba(0,0,0,0) 50%, rgba(200,0,0,0.498039) 50%, rgba(200,0,0,0.498039) 0), linear-gradient(90deg, rgba(0,0,0,0) 50%, rgba(200,0,0,0.498039) 50%, rgba(200,0,0,0.498039) 0), #FFFFFF;
+  background-position: auto auto;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: content-box;
+  -webkit-background-size: 50px 50px;
+  background-size: 50px 50px;
+}
+
+.gradient-pattern-dotted {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 320px;
+  height: 320px;
+  border: none;
+  //font: normal 1.5px/normal Arial, Helvetica, sans-serif;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: rgba(255,255,255,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: -webkit-radial-gradient(circle, rgb(35,29,24) 25%, rgba(0,0,0,0) 25%), -webkit-radial-gradient(circle, rgb(63,57,50) 25%, rgba(0,0,0,0) 25%), -webkit-radial-gradient(circle, rgb(35,29,24) 25%, rgba(0,0,0,0) 25%), -webkit-radial-gradient(circle, rgb(63,57,50) 25%, rgba(0,0,0,0) 25%), rgba(0,57,84,1);
+  background: -moz-radial-gradient(circle, rgb(35,29,24) 25%, rgba(0,0,0,0) 25%), -moz-radial-gradient(circle, rgb(63,57,50) 25%, rgba(0,0,0,0) 25%), -moz-radial-gradient(circle, rgb(35,29,24) 25%, rgba(0,0,0,0) 25%), -moz-radial-gradient(circle, rgb(63,57,50) 25%, rgba(0,0,0,0) 25%), rgba(0,57,84,1);
+  background: radial-gradient(circle, rgb(35,29,24) 25%, rgba(0,0,0,0) 25%), radial-gradient(circle, rgb(63,57,50) 25%, rgba(0,0,0,0) 25%), radial-gradient(circle, rgb(35,29,24) 25%, rgba(0,0,0,0) 25%), radial-gradient(circle, rgb(63,57,50) 25%, rgba(0,0,0,0) 25%), rgba(0,57,84,1);
+  background-position: 3em 3em, 3em 4em, auto auto, 0 1em;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: 10px 10px;
+  background-size: 10px 10px;
+}
+
+.gradient-pattern-dotted-list {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: border-box;
+  //width: 320px;
+  //height: 320px;
+  border: none;
+  //font: normal 1.5px/normal Arial, Helvetica, sans-serif;\
+  font: normal 100%/normal "Segoe UI", Helvetica, sans-serif;
+  color: rgba(255,255,255,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: -webkit-radial-gradient(circle, rgb(35,29,24) 25%, rgba(0,0,0,0) 25%), -webkit-radial-gradient(circle, rgb(63,57,50) 25%, rgba(0,0,0,0) 25%), -webkit-radial-gradient(circle, rgb(35,29,24) 25%, rgba(0,0,0,0) 25%), -webkit-radial-gradient(circle, rgb(63,57,50) 25%, rgba(0,0,0,0) 25%), rgba(0,57,84,1);
+  background: -moz-radial-gradient(circle, rgb(35,29,24) 25%, rgba(0,0,0,0) 25%), -moz-radial-gradient(circle, rgb(63,57,50) 25%, rgba(0,0,0,0) 25%), -moz-radial-gradient(circle, rgb(35,29,24) 25%, rgba(0,0,0,0) 25%), -moz-radial-gradient(circle, rgb(63,57,50) 25%, rgba(0,0,0,0) 25%), rgba(0,57,84,1);
+  background: radial-gradient(circle, rgb(35,29,24) 25%, rgba(0,0,0,0) 25%), radial-gradient(circle, rgb(63,57,50) 25%, rgba(0,0,0,0) 25%), radial-gradient(circle, rgb(35,29,24) 25%, rgba(0,0,0,0) 25%), radial-gradient(circle, rgb(63,57,50) 25%, rgba(0,0,0,0) 25%), rgba(0,57,84,1);
+  background-position: 3em 3em, 3em 4em, auto auto, 0 1em;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: 10px 10px;
+  background-size: 10px 10px;
+}
+
+body{
+background-image: -webkit-linear-gradient(-90deg, rgba(38,85,139,1) 0, rgba(75,184,240,1) 24%, rgba(58,139,194,1) 58%, rgba(38,85,139,1) 100%);
+background-image: -moz-linear-gradient(180deg, rgba(38,85,139,1) 0, rgba(75,184,240,1) 24%, rgba(58,139,194,1) 58%, rgba(38,85,139,1) 100%);
+background-image: linear-gradient(180deg, rgba(38,85,139,1) 0, rgba(75,184,240,1) 24%, rgba(58,139,194,1) 58%, rgba(38,85,139,1) 100%);
+background-repeat: repeat ;
+background-position: 100% 100%;
+-webkit-background-origin: content-box;
+//background-origin: content-box;
+-webkit-background-clip: content-box;
+//background-clip: initial;
+-webkit-background-size: auto auto;
+background-size: auto auto;
+}
